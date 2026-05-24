@@ -3,63 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>report-fraud</title>
+    <title>Web Referral Form</title>
     <link rel="stylesheet" href="/css/styles.css" />
   </head>
   <body id="report-fraud-base-styling">
-    <header class="navbar"></header>
-    <main class="mainbody">
-      <div class="body-content-main-container" id="divBodyContent">
-        <div class="panel-heading">
-          <ol class="breadcrumb">
-            <li><a href="#" title="Start" class="breadcrumb">Start</a></li>
-            <li><span class="breadcrumb">/ Vendor Details /</span></li>
-            <li><span class="breadcrumb">Fraud Details /</span></li>
-            <li><span class="breadcrumb">Referrer's Information /</span></li>
-            <li><span class="breadcrumb">Review & Submit</span></li>
-          </ol>
-        </div>
-        <form>
-          <div class="panel-body" id="divMain">
-            <div class="form-horizontal"></div>
-          </div>
-        </form>
-      </div>
-    </main>
-    <div class="business-form-container" id="businessFormContent">
-      <div class="horizontal-form" id="report-form">
-        <div class="table-sections">
-          <div class="vendorName section"></div>
-          <div class="vendorName rows">
-            <div class="vendorName field"></div>
-            <div class="alternative names field"></div>
-          </div>
-          <br />
-          <div class="vendorAddress section"></div>
-          <div class="row divAddressInformation">
-            <div class="street field"></div>
-            <div class="street2 field"></div>
-            <div class="unit field"></div>
-          </div>
-          <div class="row divAddressInformation">
-            <div class="city field"></div>
-            <div class="state field"></div>
-            <div class="zip field"></div>
-          </div>
-          <div class="row divAddressInformation">
-            <div class="county field"></div>
-            <div class="country field"></div>
-          </div>
-          <div class="row divAddressInformation">
-            <div class="phoneNumber field"></div>
-            <div class="email field"></div>
-          </div>
-          <div></div>
-          <div></div>
-        </div>
-        <div class="bottom-section"></div>
-      </div>
-    </div>
-    <script src="/src/header.ts" type="module"></script>
+    <div id="root" />
+    <script src="/src/reportFraudWebReferralForm.tsx" type="module"></script>
   </body>
 </html>
