@@ -10,7 +10,7 @@ root.render(
       <div className="content">
         <div className="form-side">
           <h1>Get in Touch</h1>
-          <p>We're here to help &mdash; drop us a message!</p>
+          <p>We&apos;re here to help &mdash; drop us a message!</p>
           <form id="form">
             <TextField className="textcontent" label="Your name" required type="text" variant="outlined" />
             <TextField className="textcontent" label="Your email" required type="email" variant="outlined" />

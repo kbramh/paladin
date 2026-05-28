@@ -21,7 +21,7 @@ root.render(
               <span className="breadcrumb">Fraud Details /</span>
             </li>
             <li>
-              <span className="breadcrumb">Referrer's Information /</span>
+              <span className="breadcrumb">Referrer&apos;s Information /</span>
             </li>
             <li>
               <span className="breadcrumb">Review & Submit</span>

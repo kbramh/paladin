@@ -20,9 +20,9 @@ root.render(
         <li>
           <strong>How do I submit a fraud report?</strong>
           <span className="answer">
-            Click the "Report Fraud" button at the top of the page in the navigation bar, then click the green "proceed"
-            button after you read the text on that page.You’ll receive a confirmation email with a report reference
-            number.
+            Click the &quot;Report Fraud&quot; button at the top of the page in the navigation bar, then click the green
+            &quot;proceed&quot; button after you read the text on that page.You’ll receive a confirmation email with a
+            report reference number.
           </span>
         </li>
         <li>
