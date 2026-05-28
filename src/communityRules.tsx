@@ -22,9 +22,9 @@ root.render(
             </div>
             <div>
               <li>
-                <strong>Be Specific:</strong> Vague claims like "this place is a scam" will be removed. When you file a
-                report, there will be a section where you can include dates, specific services/products, and the overall
-                nature of the alledged fraud.
+                <strong>Be Specific:</strong> Vague claims like &quot;this place is a scam&quot; will be removed. When
+                you file a report, there will be a section where you can include dates, specific services/products, and
+                the overall nature of the alledged fraud.
               </li>
               <li>
                 <strong>Documentation:</strong> We strongly encourage users to mention (but you MUST redact personal
@@ -62,8 +62,8 @@ root.render(
             </div>
             <div>
               <li>
-                <strong>No Incitement:</strong> The goal is reporting, not vigilantism. Do not call for "raids",
-                physical harrassment, vandalism, or other illegal acts against the business.
+                <strong>No Incitement:</strong> The goal is reporting, not vigilantism. Do not call for
+                &quot;raids&quot;, physical harrassment, vandalism, or other illegal acts against the business.
               </li>
               <li>
                 <strong>Civil Discourse:</strong> Use professional language. Profanity or hate speech will result in a
@@ -75,8 +75,8 @@ root.render(
             </div>
             <div>
               <li>
-                <strong>The "Good Faith" Clause:</strong> By posting, you affirm that your report is true to the best of
-                your knowledge.
+                <strong>The &quot;Good Faith&quot; Clause:</strong> By posting, you affirm that your report is true to
+                the best of your knowledge.
               </li>
               <li>
                 <strong>Personal Responsibility:</strong> Users are legally responsible for the content they post.
