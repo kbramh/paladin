@@ -1,4 +1,4 @@
-import { TextField, Button } from "@mui/material";
+import { Button, TextField } from "@mui/material";
 import { useState } from "react";
 
 export default function ContactUsForm() {
@@ -75,7 +75,7 @@ export default function ContactUsForm() {
         }}
         required
         rows="3"
-        style={{ resize: "vertical", marginTop: "1rem" }}
+        style={{ marginTop: "1rem", resize: "vertical" }}
         type="textArea"
         value={info}
         variant="filled"

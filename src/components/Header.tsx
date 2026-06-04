@@ -1,7 +1,7 @@
 export default function Header() {
   return (
     <header className="navbar">
-      <a href="/" className="logoAnchorTag">
+      <a className="logoAnchorTag" href="/">
         <div className="logo">Logo</div>
       </a>
       <nav className="nav-right">

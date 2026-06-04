@@ -7,10 +7,10 @@ if (process.env.NODE_ENV === "production") {
   app.use(express.static("dist"));
 } else {
   const vite = await createServer({
+    appType: "spa",
     server: {
       middlewareMode: true,
     },
-    appType: "spa",
   });
 
   app.use(vite.middlewares);
