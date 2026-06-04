@@ -61,7 +61,6 @@ export default function ContactUsForm() {
         onChange={(event: React.ChangeEvent<HTMLInputElement>) => {
           setPhoneNumber(event.target.value);
         }}
-        required
         style={{ marginTop: "1rem" }}
         type="tel"
         value={phoneNumber}
