@@ -5,12 +5,12 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        main: "index.html",
+        communityRules: "pages/communityRules.html",
         contactUs: "pages/contactUs.html",
+        faqs: "pages/faqs.html",
+        main: "index.html",
         reportFraud: "pages/reportFraud.html",
         reportFraudForm: "pages/deeper-pages/reportFraudWebReferralForm.html",
-        communityRules: "pages/communityRules.html",
-        faqs: "pages/faqs.html",
       },
     },
   },
