@@ -1,4 +1,5 @@
 import { createRoot } from "react-dom/client";
+
 import Header from "./components/Header";
 
 const root = createRoot(document.getElementById("root")!);
@@ -36,7 +37,7 @@ root.render(
               <br />
             </p>
             <a href="/pages/deeper-pages/reportFraudWebReferralForm.html">
-              <button type="button" className="report-fraud-main-button">
+              <button className="report-fraud-main-button" type="button">
                 Proceed
               </button>
             </a>
