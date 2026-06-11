@@ -16,12 +16,22 @@ export default function ContactUsForm() {
 
   const onSubmit = () => {
     if (nameValid && emailValid && phoneValid && infoValid) {
-      console.log("form submitted");
-      setName("");
-      setEmail("");
-      setPhoneNumber("");
-      setInfo("");
-      setShowValidation(false);
+      fetch("/api/contact", {
+        body: JSON.stringify({ email, info, name, phoneNumber }),
+        headers: {
+          "Content-Type": "application/json",
+        },
+        method: "POST",
+      }).then(async (response) => {
+        if (response.ok) {
+          setName("");
+          setEmail("");
+          setPhoneNumber("");
+          setInfo("");
+          setShowValidation(false);
+          console.log(await response.text());
+        }
+      });
     } else {
       setShowValidation(true);
     }
