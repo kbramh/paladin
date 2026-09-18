@@ -1,12 +1,12 @@
 import { createRoot } from "react-dom/client";
 
 import Header from "./components/Header";
-import ReportFraudForm from "./components/ReportFraudForm";
+import ReportFraudStartPage from "./components/Start";
 
 const root = createRoot(document.getElementById("root")!);
 root.render(
   <>
     <Header />
-    <ReportFraudForm />
+    <ReportFraudStartPage />
   </>,
 );
