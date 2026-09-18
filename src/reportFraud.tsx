@@ -36,7 +36,7 @@ root.render(
               Olympia, WA 98504-5817
               <br />
             </p>
-            <a href="/pages/deeper-pages/reportFraudWebReferralForm.html">
+            <a href="/pages/deeper-pages/reportFraudInitialPage.html">
               <button className="report-fraud-main-button" type="button">
                 Proceed
               </button>
