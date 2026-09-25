@@ -1,21 +1,20 @@
-import { useState } from "react";
+import Breadcrumbs from "./Breadcrumbs";
 
 export default function reportFraudVendorDetailsPage() {
   return (
     <main>
-      {step === Step.VendorDetails && (
+      <Breadcrumbs />
+      <div>
+        <span>
+          <i></i>
+          <label></label>
+          <label></label>
+        </span>
         <div>
-          <span>
-            <i></i>
-            <label></label>
-            <label></label>
-          </span>
-          <div>
-            <input></input>
-            <span></span>
-          </div>
+          <input></input>
+          <span></span>
         </div>
-      )}
+      </div>
     </main>
   );
 }

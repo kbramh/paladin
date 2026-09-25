@@ -1,4 +1,4 @@
-export default function ReportFraudIntro() {
+export default function Intro() {
   return (
     <main className="mainbody">
       <div className="body-content-main-container" id="divBodyContent">
@@ -30,7 +30,7 @@ export default function ReportFraudIntro() {
               Olympia, WA 98504-5817
               <br />
             </p>
-            <a href="/pages/deeper-pages/reportFraudInitialPage.html">
+            <a href="#start">
               <button className="report-fraud-main-button" type="button">
                 Proceed
               </button>
