@@ -43,6 +43,7 @@ export default function ReportFraudStartPage() {
             If you proceed to fill out this report, you agree to abide by our community rules and acknowledge that you
             have read them. Click <a href="/pages/communityRules.html">here</a> to access the community rules page.
           </p>
+          <button>Next</button>
         </div>
       )}
     </main>
