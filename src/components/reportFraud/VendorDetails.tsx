@@ -11,7 +11,7 @@ export default function reportFraudVendorDetailsPage() {
           <label></label>
         </span>
         <div>
-          <input></input>
+          <input className="vendor_details_input1"></input>
           <span></span>
         </div>
       </div>

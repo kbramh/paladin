@@ -238,3 +238,7 @@ input:focus {
   margin: 0;
   padding: 0;
 }
+
+.vendor_details_input1 {
+  margin-top: 16px;
+}
