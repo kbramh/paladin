@@ -3,6 +3,7 @@ import { HashRouter, Route, Routes } from "react-router";
 
 import Header from "./components/Header";
 import Intro from "./components/reportFraud/Intro";
+import ReferrerInformation from "./components/reportFraud/ReferrerInformation";
 import Start from "./components/reportFraud/Start";
 import VendorDetails from "./components/reportFraud/VendorDetails";
 
@@ -14,6 +15,7 @@ root.render(
       <Route element={<Intro />} path="/" />
       <Route element={<Start />} path="/start" />
       <Route element={<VendorDetails />} path="/vendorDetails" />
+      <Route element={<ReferrerInformation />} path="/referrerInformation" />
     </Routes>
   </HashRouter>,
 );
