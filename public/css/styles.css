@@ -168,8 +168,10 @@ li::marker {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
   box-shadow: 28px 4px 12px -2px rgba(0, 0, 0, 0.12);
-  padding: 10px 15px border-bottom 1px solid transparent;
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
   transform: translateY(-2px);
+  width: fit-content;
 }
 
 #report-fraud-base-styling {
@@ -235,4 +237,8 @@ input:focus {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.vendor_details_input1 {
+  margin-top: 16px;
 }

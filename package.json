@@ -50,6 +50,7 @@
     "better-sqlite3": "^12.11.1",
     "express": "^5.2.1",
     "react": "^19.2.6",
-    "react-dom": "^19.2.6"
+    "react-dom": "^19.2.6",
+    "react-router": "^8.4.0"
   }
 }

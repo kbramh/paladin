@@ -10,7 +10,6 @@ export default defineConfig({
         faqs: "pages/faqs.html",
         main: "index.html",
         reportFraud: "pages/reportFraud.html",
-        reportFraudForm: "pages/deeper-pages/reportFraudWebReferralForm.html",
       },
     },
   },
