@@ -11,15 +11,16 @@ export default function Intro() {
           <br />
           <div className="panel-body">
             <p>
-              If you know of a business commiting fraud in Washington State, we would like to know about it. Paladin is
-              commited to identifying and reporting organizations that engage in fraud. If you have knowledge of a
-              fradulant activity going on, you can report it using any of the following methods:
+              If you know of a business or individual commiting fraud in Washington State, we would like to know about
+              it. In addition to reporting on other crimes, Paladin is commited to identifying and reporting
+              organizations and people that engage in fraud. If you have knowledge of a fradulant activity going on, you
+              can report it using any of the following methods:
             </p>
             <ul className="reporting-options">
-              <li>Complete and submit this Online Referral Form</li>
+              <li>Complete and submit the following Online Referral Form</li>
               <li>
-                If the fraud you have discovered is regarding Washington State public benefits programs, mail your
-                written complaint to:
+                If the fraud you have discovered is abuse relating to Washington State public benefits programs, you
+                should mail a written complaint to:
               </li>
             </ul>
             <p style={{ marginLeft: "60px" }}>

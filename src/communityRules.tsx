@@ -8,9 +8,9 @@ root.render(
     <Header />
     <main>
       <div>
-        <h2>Community Rules that we abide by on Paladin</h2>
+        <h2 className="communityrules-h2-header">Community Rules that we abide by on Paladin</h2>
         <div>
-          <h3>
+          <h3 className="communityrules-h3-header">
             Warning: failure to follow our community rules will result in a penality, the nature of which determines the
             severity of the consequence.
           </h3>
@@ -23,13 +23,14 @@ root.render(
             </div>
             <div>
               <li>
-                <strong>Be Specific:</strong> Vague claims like &quot;this place is a scam&quot; will be removed. When
-                you file a report, there will be a section where you can include dates, specific services/products, and
-                the overall nature of the alledged fraud.
+                <strong>Be Specific:</strong> Vague claims like &quot;this place is a scam&quot; or &quot;a man on the
+                street near Seattle&apos;s baseball stadium robbed the nearby mini mart last week&quot; will be removed.
+                When you file a report, there will be a section where you can include dates, the specific
+                action/context, and the overall nature of the alledged crime.
               </li>
               <li>
                 <strong>Documentation:</strong> We strongly encourage users to mention (but you MUST redact personal
-                info from supporting evidence like receipts, contracts, or email chains.
+                info from supporting evidence).
               </li>
             </div>
             <div>
@@ -37,12 +38,13 @@ root.render(
             </div>
             <div>
               <li>
-                <strong>Business Info Only:</strong> You may share the business name, address, & public-facing contact
-                information.
+                <strong>For Crimes near Businesses/Institutions:</strong> You may share the entity name, address, &
+                public-facing contact information if the crime occured near such a place or directly involves them in
+                some way.
               </li>
               <li>
-                <strong>No Private Data:</strong> Do not post the home addresses, personal phone numbers, or private
-                social media profiles of employees or owners.
+                <strong>No Private Data:</strong> Do not post the home addresses, personal phone numbers, or social
+                media profiles of individuals related to the crime.
               </li>
             </div>
             <div>
@@ -54,8 +56,8 @@ root.render(
                 report
               </li>
               <li>
-                <strong>Conflict of Interest:</strong> If you are a competetitor of the business you are reporting, you
-                must disclose this relationship.
+                <strong>Conflict of Interest:</strong> If you report business fraud and are a competetitor of the
+                business you are reporting, you must disclose this relationship.
               </li>
             </div>
             <div>
@@ -64,7 +66,8 @@ root.render(
             <div>
               <li>
                 <strong>No Incitement:</strong> The goal is reporting, not vigilantism. Do not call for
-                &quot;raids&quot;, physical harrassment, vandalism, or other illegal acts against the business.
+                &quot;raids&quot;, physical harrassment, vandalism, or other such acts against those who engaged in
+                illegal activity.
               </li>
               <li>
                 <strong>Civil Discourse:</strong> Use professional language. Profanity or hate speech will result in a

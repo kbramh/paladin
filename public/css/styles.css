@@ -75,6 +75,14 @@ textarea {
   background: linear-gradient(135deg, #e3f2fd, #bbdefb);
 }
 
+.communityrules-h2-header {
+  padding: 12px;
+}
+
+.communityrules-h3-header {
+  padding: 12px;
+}
+
 .contact-container {
   background: white;
   border-radius: 16px;
@@ -108,9 +116,34 @@ textarea {
   background: linear-gradient(135deg, #e3f2fd, #bbdefb);
 }
 
+.faq-container {
+  box-sizing: border-box;
+  margin: 0;
+  padding-left: 12px;
+}
+
+.faq-container h2,
+.faq-container h3 {
+  margin: 24px 0;
+}
+
 .faq-list {
   display: flex;
   gap: 60px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.faq-list li {
+  display: flex;
+  flex: 1 1 280px;
+  flex-direction: column;
+}
+
+.faq-list li strong {
+  display: block;
+  min-height: 5.5em;
 }
 
 .form-side {
@@ -122,6 +155,11 @@ textarea {
 
 #homepage-base-styling {
   background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+}
+
+input:focus {
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5);
+  outline: none;
 }
 
 li::marker {
@@ -208,11 +246,6 @@ li::marker {
   margin: 12px 0;
   padding: 14px;
   width: 100%;
-}
-
-input:focus {
-  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5);
-  outline: none;
 }
 
 .topnav a {
