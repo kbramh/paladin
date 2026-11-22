@@ -1,7 +1,7 @@
 export default function Intro() {
   return (
     <main className="mainbody">
-      <div className="body-content-main-container" id="divBodyContent">
+      <div id="divBodyContent">
         <form>
           <div className="panel-header">
             <span className="panel-title" style={{ fontSize: "x-large" }}>
