@@ -1,24 +1,12 @@
-import Box from "@mui/material/Box";
-import TextField from "@mui/material/TextField";
-
 import Breadcrumbs from "./Breadcrumbs";
 
 export default function reportFraudVendorDetailsPage() {
   return (
-    <main>
+    <main className="mainbody">
       <Breadcrumbs />
-      <div>
-        <span>
-          <i></i>
-          <label></label>
-          <label></label>
-        </span>
-        <div className="vendor_details">
-          <span>Vendor Details</span>
-          <Box className="vendor_details_field" sx={{ maxWidth: "100%", width: 1500 }}>
-            <TextField fullWidth label="" id="fullWidth" />
-          </Box>
-        </div>
+      <div className="vendor_details">
+        <span>Vendor Name</span>
+        <input className="vendor_details_subclass_1"></input>
       </div>
     </main>
   );

@@ -272,10 +272,15 @@ li::marker {
   padding: 0;
 }
 
-.vendor_details_field {
-  margin-top: 1rem;
+.vendor_details {
+  display: flex;
+  margin-top: 1.5rem;
+  gap: 16px;
+  flex-direction: column;
+  width: 100%;
 }
 
-.vendor_details {
-  margin-top: 1.5rem;
+.vendor_details_subclass_1 {
+  border: 1px solid grey;
+  padding: 12px;
 }
