@@ -1,6 +1,6 @@
 export default function Breadcrumbs() {
   return (
-    <div className="body-content-main-container" id="divBodyContent">
+    <div id="divBodyContent">
       <div className="panel-heading">
         <ol className="breadcrumb">
           <li>

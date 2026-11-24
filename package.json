@@ -2,7 +2,7 @@
   "name": "paladin",
   "type": "module",
   "version": "0.1.0",
-  "description": "Paladin - a software application to help individuals report fraud.",
+  "description": "Paladin - a software application to help individuals report crime.",
   "scripts": {
     "build": "vite build",
     "dev": "npm run dev:server",
